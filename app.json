@@ -9,7 +9,7 @@
             "description": "Your Bot token, Get it from @Botfather",
             "value": ""
         },
-        "API-URL": {
+        "API_URL": {
             "description": "Telegram channel's username. Don't give '@'",
             "value": "https://num1mt.deta.dev/location/"
         }
