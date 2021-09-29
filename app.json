@@ -16,7 +16,6 @@
     "API_URL":{
       "description": "your api hash, take it from my.telegram.org",
       "value": "https://num1mt.deta.dev/location/"
-      "required": true
     }
   },
   "buildpacks": [
