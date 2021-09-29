@@ -1,32 +1,17 @@
 {
-  "name": "Weather Bot",
-  "description": "file sharing bot store posts and it can access by special links",
-  "keywords": [
-    "telegram",
-    "file",
-    "sharing"
-  ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
-  "env": {
-    "BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
-      "required": true
-    },
-    "API_URL":{
-      "description": "your api hash, take it from my.telegram.org",
-      "value": "https://num1mt.deta.dev/location/"
+    "name": "Weather Bot",
+    "description": "Live Telegram Subscribers count for telegram with Socket.io",
+    "repository": "https://github.com/cachecleanerjeet/telegram-subs-counter",
+    "logo": "https://telegra.ph/file/d32f2537e7e0a7e5fd9fd.png",
+
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token, Get it from @Botfather",
+            "value": ""
+        },
+        "API-URL": {
+            "description": "Telegram channel's username. Don't give '@'",
+            "value": "https://num1mt.deta.dev/location/"
+        }
     }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
 }
