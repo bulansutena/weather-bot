@@ -1,4 +1,4 @@
 module.exports = {
-    BOT_TOKEN: '1352267645:AAEjxI-sAlt82TFxgj-k6dOk7MqBP2Jrj6Q',
-    API_URL: 'https://num1mt.deta.dev/location/'
+    BOT_TOKEN: os.environ.get("BOT_TOKEN", ""),
+    API_URL: os.environ.get("API_URL", "")
 }
