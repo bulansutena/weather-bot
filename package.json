@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cachecleanerjeet/weather-bot.git"
+        "url": "git+https://github.com/bulansutena/weather-bot.git"
     },
     "keywords": [
         "weather",
@@ -23,7 +23,7 @@
     "author": "Tuhin Kanti Pal",
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/cachecleanerjeet/weather-bot/issues"
+        "url": "https://github.com/bulansutena/weather-bot/issues"
     },
-    "homepage": "https://github.com/cachecleanerjeet/weather-bot#readme"
+    "homepage": "https://github.com/bulansutena/weather-bot#readme"
 }
